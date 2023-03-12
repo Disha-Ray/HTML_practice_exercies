@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="thankyou.html" method="get">
+        <label for="username"> Username :</label>
+        <input type="text" id="username" name="username"><br><br>
+        <!-- alt click in id we can type in both places -->
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="Email"><br><br>
+        <label for="pw">Password :</label>
+        <input type="password" id="pw" name="password"><br><br>
+        <input type="submit" value="Sign in">
+    </form>
+    <br><br><br>
+
+
+    <p>WITH PLACEHOLDER </p>
+    <form>
+        <label for="username"> Username :</label>
+        <input type="text" id="username" placeholder="username"><br><br>
+        <!-- alt click in id we can type in both places -->
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="your Email"><br><br>
+        <label for="pw">Password :</label>
+        <input type="password" id="pw" placeholder=" your password"><br><br>
+        <input type="submit" value="Sign in">
+    </form>
+    <br><br><br>
+
+
+    <p>WITH REQUIRED - will not submit until all required values provided</p>
+    <br>
+    <form>
+        <label for="username"> Username :</label>
+        <input type="text" id="username" placeholder="username" required><br><br>
+        <!-- alt click in id we can type in both places -->
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="your Email" required><br><br>
+        <label for="pw">Password :</label>
+        <input type="password" id="pw" placeholder=" your password" required><br><br>
+        <input type="submit" value="Sign in">
+    </form>
+
+
+</body>
+
+</html>
