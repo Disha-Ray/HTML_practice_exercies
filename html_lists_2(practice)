@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ORDERED LIST</h1>
+    <ol type="1">
+        <li>www.abc.fgf</li>
+        <li>fgftbgddd</li>
+        <li>ooooooooo</li>
+        <li>qqqqqqqqqqqqq</li>
+        <li>ndbchjfgd</li>
+    </ol>
+    <ol type="A">
+        <li>www.abc.fgf</li>
+        <li>fgftbgddd</li>
+        <li>ooooooooo</li>
+        <li>qqqqqqqqqqqqq</li>
+        <li>ndbchjfgd</li>
+    </ol>
+    <ol type="a">
+        <li>www.abc.fgf</li>
+        <li>fgftbgddd</li>
+        <li>ooooooooo</li>
+        <li>qqqqqqqqqqqqq</li>
+        <li>ndbchjfgd</li>
+    </ol>
+    <ol type="i">
+        <li>www.abc.fgf</li>
+        <li>fgftbgddd</li>
+        <li>ooooooooo</li>
+        <li>qqqqqqqqqqqqq</li>
+        <li>ndbchjfgd</li>
+    </ol>
+    <ol type="I">
+        <li>www.abc.fgf</li>
+        <li>fgftbgddd</li>
+        <li>ooooooooo</li>
+        <li>qqqqqqqqqqqqq</li>
+        <li>ndbchjfgd</li>
+    </ol>
+    <br>
+    <h1>UNORDERED LIST</h1>
+
+    <ul style="list-style-type:disc">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:armenian">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:none">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:circle">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:decimal">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:lower-alpha">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:lower-greek">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:lower-latin">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <ul style="list-style-type:lower-roman">
+        <li>none</li>
+        <li>abcde</li>
+        <li>mnopqrst</li>
+        <li>poiuytre</li>
+    </ul>
+    <br>
+    <h1>DESCRIPTION LIST</h1>
+    <dl>
+        <dt>Guitar</dt>
+        <dd>it's a musical instrument</dd>
+        <dt>book</dt>
+        <dd>used for reading and learning</dd>
+    </dl>
+</body>
+
+</html>
